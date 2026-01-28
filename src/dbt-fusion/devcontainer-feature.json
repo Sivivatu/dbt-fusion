@@ -1,0 +1,19 @@
+{
+    "name": "dbt Fusion Engine",
+    "id": "dbt-fusion",
+    "version": "1.0.0",
+    "description": "Installs the dbt Fusion engine - a ground-up rewrite of dbt Core in Rust",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest",
+            "description": "Select version of dbt-fusion to install. Use 'latest' for the most recent version."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
